@@ -15,5 +15,42 @@
         width="272"
         height="92"
     >
+
+    <form method="post"  class="Form_1">
+        <div>
+            <label for="sname">Name : </label>
+            <input type="text" placeholder="Enter Your Name.." value="" name="s_name" class="S_name" id="sname" />
+        </div>
+        <br />
+        <div>
+            <label for="smail">Email-Id : </label>
+            <input type="email" name="s_email" id="smail" placeholder="Enter Your Email.." class="S_mail" />
+        </div>
+        <div>
+            <label for="sgender">Gender : </label>
+            <input type="radio" name="gen" value="Male" id="sgender" class="S_gen"/>Male
+            <input type="radio" name="gen" value="Female" id="sgender" class="S_gen"/>Female
+
+        </div>
+        <div>
+            <label for="s_lang">Language : </label>
+            <input type="checkbox" name="s_lang" value="Tamil" id="slang" class="slang"> Tamil
+            <input type="checkbox" name="s_lang" value="Malayalam" id="slang" class="slang"> Malayalam
+            <input type="checkbox" name="s_lang" value="English" id="slang" class="slang"> English
+        </div>
+        <div>
+            <label for="sAddress">Address : </label>
+            <textarea placeholder="Enter Your Address" name="saddrs" class="saddr" id="sAddress"></textarea>
+        </div>
+        <div>
+            <label for="sMobNo">Mob No : </label>
+            <input type="text" name="smob" class="smobNo" id="sMobNo">
+        </div>
+        <div>
+            <!-- <button type="submit">Submit</button> -->
+             <button type="button">Submit</button>
+            <button type="reset">Clear</button>
+        </div>
+    </form>
 </body>
 </html>
