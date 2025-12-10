@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyWebsite</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Hi Welcome to my code World!!</h1>
+    <h1 style="font-family: 'Science Gothic';">Hi Welcome to my code World!!</h1>
     <img src="https://media.istockphoto.com/id/1141255604/photo/varkala-beach-kerala-india.jpg?s=1024x1024&w=is&k=20&c=8KJv2vJDZUA31OUDb-jk3r5FnTyMtbQCMNUUaEZWNnI=" width="500" height="300" alt="">
     <h2>Hi Anaswara</h2>
     <img 
@@ -15,7 +18,8 @@
         width="272"
         height="92"
     >
-
+<fieldset>
+    <legend>Application Form</legend>
     <form method="post"  class="Form_1">
         <div>
             <label for="sname">Name : </label>
@@ -24,7 +28,7 @@
         <br />
         <div>
             <label for="smail">Email-Id : </label>
-            <input type="email" name="s_email" id="smail" placeholder="Enter Your Email.." class="S_mail" />
+            <input type="email" name="s_email" id="smail" placeholder="Enter Your Email.." class="S_mail" required>
         </div>
         <div>
             <label for="sgender">Gender : </label>
@@ -34,23 +38,92 @@
         </div>
         <div>
             <label for="s_lang">Language : </label>
-            <input type="checkbox" name="s_lang" value="Tamil" id="slang" class="slang"> Tamil
-            <input type="checkbox" name="s_lang" value="Malayalam" id="slang" class="slang"> Malayalam
-            <input type="checkbox" name="s_lang" value="English" id="slang" class="slang"> English
+            <input type="checkbox" name="s_Lang" value="Tamil" id="s_lang" class="slang"> Tamil
+            <input type="checkbox" name="s_Lang" value="Malayalam" id="s_lang" class="slang"> Malayalam
+            <input type="checkbox" name="s_Lang" value="English" id="s_lang" class="slang"> English
         </div>
         <div>
             <label for="sAddress">Address : </label>
-            <textarea placeholder="Enter Your Address" name="saddrs" class="saddr" id="sAddress"></textarea>
+            <textarea placeholder="Enter Your Address" name="s_addrs" class="saddr" id="sAddress"></textarea>
         </div>
         <div>
             <label for="sMobNo">Mob No : </label>
-            <input type="text" name="smob" class="smobNo" id="sMobNo">
+            <input type="text" name="s_mob" class="smobNo" id="sMobNo" required>
         </div>
         <div>
             <!-- <button type="submit">Submit</button> -->
-             <button type="button">Submit</button>
+             <button type="submit">Submit</button>
             <button type="reset">Clear</button>
         </div>
     </form>
+</fieldset>
+    <div>
+        <h3>My Bucket List</h3>
+        <ins>To Learn MERN Stack Development Course</ins><br>
+        <del>PHP Framework Learn</del>
+    </div>
+    <div>
+        <h5><mark>superlative and subtractive</mark></h5>
+        <p>a2+b2+2ab</p>
+        <br>
+
+        <p>Correct Way a<sup>2</sup>+b<sup>2</sup>+2ab</p>
+        <br>
+        <p>2<sub>a</sub>+3<sub>b</sub>=a2b3</p>
+        <br>
+        <q>Software Developer</q>
+        <br>
+        <abbr title="Central Processing Unit">CPU</abbr>
+        <br>
+        <a href="mailto:nareshrko213@gmail.com">Mail Me</a>
+
+        ]
+    </div>
+    <div>
+        <table border="1">
+            <caption>Student Name List</caption>
+            <thead>
+                <tr>
+                <th>S.NO</th>
+                <th>project</th>
+                <th>Name</th>
+                <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Java</td>
+                    <td>Naresh</td>
+                    <td>
+                        <select name="" id="">
+                            <option value="Completed">Completed</option>
+                            <option value="inprogress">inprogress</option>
+                            <option value="hold">hold</option>
+                    </select>
+                        </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Tally</td>
+                    <td>Mohan</td>
+                    <td>
+                        <select name="" id="">
+                            <option value="hold">hold</option>
+                            <option value="inprogress">inprogress</option>
+                            <option value="Completed">Completed</option>
+                    </select>
+                        </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                     <td>C# & C++</td>
+                    <td>Anaswara</td>
+                    <td>Inprogress</td>
+                   
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </body>
 </html>

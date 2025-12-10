@@ -1,0 +1,110 @@
+<!DOCTYPE html> <!-- Define Document for HTML:5 mode modern layouts-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- All type responsive viewport Important-->
+    <title>CSS Test</title>
+    <link rel="stylesheet" href="/css-learn/css-test.css">
+    <link rel="icon" href="/css-learn/css-images/logo.svg">
+    <!-- 
+            @ Website Title
+            @ CSS Stylesheets
+            @ Pre Defined BS,JS files CDN Links
+            @ website Icon
+
+      -->
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <!-- Headers logo and website name -->
+            <div class="container nav-container">
+                <img class="logo-img" src="/css-learn/css-images/logo.svg" alt="boulder inc">
+                <nav class="primary-navigation" aria-label="primary Navigation">
+                    <ul>
+                        <li><a href="/css-learn/hompage.html">Home</a></li>
+                        <li><a href="/css-learn/get-ready-page.html">getting-started-outdoors</a></li>
+                    </ul>
+                </nav>
+                
+            </div>
+            <!-- Nav Bar and nav bar links -->
+                             <h1>Discover the Thrill of <span class="teal-text">Bouldering</span></h1>
+
+        </header>
+    </div>
+    <main>
+        <div class="wrapper">
+            <!-- <main> = main content wrapper (only once per page)
+            ✔ <section> = divides content inside <main> (can be many)
+            This makes your webpage: SEO-friendly,Screen-reader accessible,Clean and semantic,Easy to style with CSS,Responsive layout friendly -->
+            <img src="/css-learn/css-images/banner-1.jpeg" alt="An inner Bouldering Gym" />
+        </div>
+        <section class="home" id="home">
+            <div class="wrapper">
+                <div class="two-col-layouts">
+                    <div>
+                        <h3>What is Bouldering?</h3>
+                        <p>Bouldering is a form of rock climbing that is performed on small rock formations or artificial rock
+                            walls
+                            without the use of ropes or harnesses. </p>
+                    
+                        <p>Unlike <a href="/css-learn/get-ready-page.html">traditional climbing,</a> bouldering focuses on short
+                            but
+                            intensive routes called "problems,"
+                            typically keeping climbers within a safe distance from the ground while they navigate challenging
+                            sequences of moves.</p>
+                    </div>
+                    <img src="/css-learn/css-images/what-is-bouldering.jpg" alt="what-is-bouldering">
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="teal-bg">
+                    <p>Experience the perfect blend of <strong>physical challenge and mental puzzle-solving</strong> as
+                        you
+                        navigate routes close to the ground, with nothing but a crash pad and determination. </p>
+                    <p>Bouldering strips
+                        climbing down to its purest form, making it both <strong>accessible to beginners and endlessly
+                            challenging for experts.</strong></p>
+                </div>
+            </div>
+        </section>
+        <div class="wrapper">
+            <section class="services" id="services">
+                <div class="two-col-layouts">
+                    <img src="/css-learn/css-images/why-bouldering.jpg" alt="why-bouldering-a-man-attempt">
+                    
+                    <div>
+                        <h3 class="teal-text" id="teak">Why Bouldering?</h3>
+                
+                        <p>Whether you're a complete beginner or an experienced athlete, climbers of all ages can challenge
+                            themselves, celebrate each other's successes, and <em>build lasting friendships</em>.</p>
+                
+                        <h4>Reasons to get started:</h4>
+                
+                        <ul class="reason-lists">
+                            <li>Full-body workout</li>
+                            <li>Improves problem solving skills</li>
+                            <li>Builds mental resilience</li>
+                            <li>And much more!</li>
+                        </ul>
+                        <p>Interested? Then find out <a href="/css-learn/get-ready-page.html" target="_blank">how to get started
+                                with bouldering!</a></p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </main>
+    <footer class="teal-bg">
+        <!-- @ at the rights or copywrites and company name and year -->
+        <p>©2025 Boulder inc. All rights reserved.</p>
+    </footer>
+    </div>
+</body>
+<!-- Put JS just before the end of body OR immediately after body. Both are correct. -->
+
+</html>
